@@ -8,13 +8,13 @@ public interface GraphInterface {
      * Number of vertices in the graph
      * @return Returns the number of vertices in the graph
      */
-    int vertices();
+    int numVertices();
 
     /**
      * Number of edges in the graph
      * @return Returns the number of edges in the graph
      */
-    int edges();
+    int numEdges();
 
     /**
      * Adds an edge v-w to the graph

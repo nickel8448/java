@@ -70,8 +70,4 @@ public class Graph implements GraphInterface {
         }
         return returnString.toString();
     }
-
-    public Iterable<Integer> getAdjacentVertices(int v) {
-
-    }
 }
