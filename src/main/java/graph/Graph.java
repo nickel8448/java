@@ -17,6 +17,12 @@ public interface Graph {
     int getNumberOfEdges();
 
     /**
+     * Returns if the graph is a directed or undirected
+     * @return Returns true if directed and false if undirected
+     */
+    boolean isDirected();
+
+    /**
      * Adds an edge v-w to the graph
      * @param vertexA VertexA
      * @param vertexB VertexB

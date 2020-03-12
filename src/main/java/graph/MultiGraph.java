@@ -10,6 +10,7 @@ import java.util.LinkedList;
 public class MultiGraph implements Graph {
 
     private HashMap<Integer, LinkedList<Integer>> adjacentVerticesByVertex;  // adjacency list
+    private final boolean ISDIRECTED = false;
 
     MultiGraph() {
         adjacentVerticesByVertex = new HashMap<>();
@@ -34,6 +35,15 @@ public class MultiGraph implements Graph {
         }
         return edgesBothWays / 2;
     }
+
+    /**
+     * Returns if the graph is directed
+     * @return
+     */
+    public boolean isDirected() {
+        return ISDIRECTED;
+    }
+
 
     /**
      * Adds a multi edge from VertexA -> VertexB and VertexB -> VertexA

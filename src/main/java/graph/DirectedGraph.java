@@ -6,6 +6,8 @@ public class DirectedGraph implements Graph {
 
     private HashMap<Integer, LinkedList<Integer>> adjacentVerticesByVertex;
     private Set<Integer> allVerticesSet;
+    // Map to keep a track of in degrees
+    protected HashMap<Integer, Integer> inDegreeMap;
 
     /**
      * Constructor. It initializes the class variables
@@ -13,6 +15,7 @@ public class DirectedGraph implements Graph {
     DirectedGraph() {
         adjacentVerticesByVertex = new HashMap<>();
         allVerticesSet = new HashSet<>();
+        inDegreeMap = new HashMap<Integer, Integer>();
     }
 
     /**
@@ -21,6 +24,14 @@ public class DirectedGraph implements Graph {
      */
     public int getNumberOfVertices() {
         return this.allVerticesSet.size();
+    }
+
+    /**
+     * Returns if the graph is a directed graph
+     * @return Return true as this is a directed graph
+     */
+    public boolean isDirected() {
+        return true;
     }
 
     /**
@@ -41,10 +52,12 @@ public class DirectedGraph implements Graph {
      * @param vertexB VertexB
      */
     public void addEdge(int vertexA, int vertexB) {
-        allVerticesSet.add(vertexA); allVerticesSet.add(vertexB);
+        allVerticesSet.add(vertexA);  // Adding vertexA to the vertex set
+        allVerticesSet.add(vertexB);  // Adding vertexB to the vertex set
         if(!adjacentVerticesByVertex.containsKey(vertexA))
             adjacentVerticesByVertex.put(vertexA, new LinkedList<>());
         adjacentVerticesByVertex.get(vertexA).add(vertexB);
+        inDegreeMap.put(vertexB, inDegreeMap.getOrDefault(vertexB, 0) + 1);
     }
 
     /**
@@ -82,4 +95,16 @@ public class DirectedGraph implements Graph {
         return adjacentVerticesByVertex.get(source);
     }
 
+    /**
+     * Returns the indegree of a source vertex
+     * @param source integer source vertex
+     * @return indegree of the vertex
+     */
+    public int getIndegree(int source) {
+        return inDegreeMap.get(source);
+    }
+
+    public void printIndegree() {
+        System.out.println(inDegreeMap);
+    }
 }
