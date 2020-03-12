@@ -1,73 +1,50 @@
 package main.java.graph;
 
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedList;
 
-/**
- * Implementation of a Multi Graph
- */
-public class Graph implements GraphInterface {
-    private int numberOfVertices;
-    private int numberOfEdges;  // Number of edges
-
-    private HashMap<Integer, LinkedList<Integer>> adj;  // adjacency list
-
-    Graph() {
-        adj = new HashMap<>();
-    }
+public interface Graph {
 
     /**
-     * Returns the number of vertices
-     * @return Number of vertices in the graph
+     * Number of vertices in the graph
+     * @return Returns the number of vertices in the graph
      */
-    public int numVertices() {
-        return this.numberOfVertices;
-    }
+    int getNumberOfVertices();
 
     /**
      * Number of edges in the graph
      * @return Returns the number of edges in the graph
      */
-    public int numEdges() {
-        return this.numberOfEdges;
-    }
+    int getNumberOfEdges();
 
+    /**
+     * Returns if the graph is a directed or undirected
+     * @return Returns true if directed and false if undirected
+     */
+    boolean isDirected();
 
-    public void addVertex(int v) {
-        adj.putIfAbsent(v, new LinkedList<>());
-        ++numberOfVertices;
-    }
+    /**
+     * Adds an edge v-w to the graph
+     * @param vertexA VertexA
+     * @param vertexB VertexB
+     */
+    void addEdge(int vertexA, int vertexB);
 
+    /**
+     * Function gets all the vertices in the graph
+     * @return Returns an iterable of all the vertices in the graph
+     */
+    Iterable<Integer> getAllVertices();
 
-    public void addEdge(int v, int w) {
-        if(adj.containsKey(v)) {
-            adj.get(v).add(w);
-            ++numberOfEdges;
-        } else if(adj.containsKey(w)) {
-            adj.get(w).add(v);
-            ++numberOfEdges;
-        } else if (adj.containsKey(v) && adj.containsKey(w)) {
-            adj.get(v).add(w);
-            adj.get(w).add(v);
-            ++numberOfEdges;
-        } else {
-            addVertex(v);
-            addVertex(w);
-            adj.get(w).add(v);
-            adj.get(v).add(w);
-            ++numberOfEdges;
-        }
-    }
+    /**
+     * Functions gets all the adjacent vertices to the the source
+     * @param source Vertex source
+     * @return Returns an iterable of all the vertices adjacent to the source
+     */
+    Iterable<Integer> getAdjacentVertices(int source);
 
-    @Override
-    public String toString() {
-        StringBuilder returnString = new StringBuilder();
-        for (int key : adj.keySet()) {
-            returnString.append(key).append(": ");
-            LinkedList<Integer> nodesList = adj.get(key);
-            returnString.append(Arrays.toString(nodesList.toArray()));
-        }
-        return returnString.toString();
-    }
+    /**
+     * String representation of the graph
+     * @return Returns the string representation of the graph
+     */
+    String toString();
 }
