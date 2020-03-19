@@ -1,27 +1,27 @@
 package main.java.leetcode.LinkedList;
 
-public class ListNode<T> {
+public class ListNode {
 
-    private T val;
-    private ListNode<T> next;
+    public int val;
+    public ListNode next;
 
-    ListNode(T x) {
+    ListNode(int x) {
         this.val = x;
     }
 
-    T getVal() {
+    int getVal() {
         return val;
     }
 
-    void setVal(T val) {
+    void setVal(int val) {
         this.val = val;
     }
 
-    ListNode<T> getNext() {
+    ListNode getNext() {
         return next;
     }
 
-    void setNext(ListNode<T> next) {
+    void setNext(ListNode next) {
         this.next = next;
     }
 }
