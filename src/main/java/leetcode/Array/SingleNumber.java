@@ -1,7 +1,6 @@
-package main.java.leetcode.Array;
+package main.java.LeetCode.Array;
 
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 public class SingleNumber {

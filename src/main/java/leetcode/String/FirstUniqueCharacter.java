@@ -1,9 +1,8 @@
-package main.java.leetcode.String;
+package main.java.LeetCode.String;
 
 // Problem: https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/
 
 import java.util.Arrays;
-import java.util.HashMap;
 
 public class FirstUniqueCharacter {
 

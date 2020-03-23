@@ -1,4 +1,4 @@
-package main.java.leetcode.LinkedList;
+package main.java.LeetCode.LinkedList;
 
 public class LinkedListTest {
 
