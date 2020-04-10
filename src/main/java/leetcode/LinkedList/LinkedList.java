@@ -8,8 +8,14 @@ public class LinkedList {
     public LinkedList() {
     }
 
+    public LinkedList(int[] arr) {
+        for(int num : arr) {
+            this.add(num);
+        }
+    }
+
     // Head of the LinkedList
-    private ListNode head;
+    ListNode head;
 
     // Size of the Linkedlist
     private int size;

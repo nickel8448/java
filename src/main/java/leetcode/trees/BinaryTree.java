@@ -30,7 +30,7 @@ public class BinaryTree {
         inorderTraversal(root);
     }
 
-    private void inorderTraversal(TreeNode node) {
+    void inorderTraversal(TreeNode node) {
         if(node != null) {
             inorderTraversal(node.left);
             System.out.println(node.val);
