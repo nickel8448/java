@@ -1,9 +1,11 @@
 package main.java.leetcode.narray;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class PreorderTraversal {
 
@@ -18,13 +20,25 @@ public class PreorderTraversal {
             Node currentNode = stack.pollLast();
             if(currentNode.children != null) {
                 Collections.reverse(currentNode.children);
-                for (Node child : currentNode.children) {
-                    stack.add(child);
-                }
+                stack.addAll(currentNode.children);
             }
             outputList.add(currentNode.val);
         }
         return outputList;
+    }
+
+    /**
+     * The function does a pre order traversal for a narray tree and uses
+     * queue to achieve it
+     * @param root
+     * @return
+     */
+    public List<Integer> preorderQueue(Node root) {
+        LinkedList<Integer> result = new LinkedList<Integer>();
+        Queue<Node> queue = new ArrayDeque<>();
+        if(root == null) return result;
+        queue.add(root);
+        return result;
     }
 
     public void preorderRec(Node root) {
