@@ -1,7 +1,6 @@
-package main.java.LeetCode.Design;
+package main.java.leetcode.Design;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class Logger {
 

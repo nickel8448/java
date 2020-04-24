@@ -1,4 +1,4 @@
-package main.java.LeetCode.String;
+package main.java.leetcode.String;
 
 public class JudgeCircle {
     public static boolean judgeCircle(String moves) {

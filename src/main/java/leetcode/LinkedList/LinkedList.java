@@ -1,4 +1,4 @@
-package main.java.LeetCode.LinkedList;
+package main.java.leetcode.LinkedList;
 
 import java.util.Stack;
 

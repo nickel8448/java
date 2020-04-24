@@ -1,4 +1,4 @@
-package main.java.LeetCode.String;
+package main.java.leetcode.String;
 
 // Problem: https://leetcode.com/problems/longest-common-prefix/solution/
 

@@ -1,4 +1,4 @@
-package main.java.LeetCode.Trees;
+package main.java.leetcode.trees;
 
 public class ClimbStairs {
     public static int climbStairs(int n) {

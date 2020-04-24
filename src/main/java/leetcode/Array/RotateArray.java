@@ -1,4 +1,4 @@
-package main.java.LeetCode.Array;
+package main.java.leetcode.Array;
 
 
 // TODO: Check how can swaps be done with Java native commands

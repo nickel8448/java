@@ -1,4 +1,4 @@
-package main.java.LeetCode.Trees;
+package main.java.leetcode.trees;
 
 public class MergeTwoBinaryTrees {
     public static TreeNode mergeTrees(TreeNode t1, TreeNode t2) {

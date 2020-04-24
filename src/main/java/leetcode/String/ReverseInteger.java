@@ -1,4 +1,4 @@
-package main.java.LeetCode.String;
+package main.java.leetcode.String;
 
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/
 

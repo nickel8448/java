@@ -1,4 +1,4 @@
-package main.java.LeetCode.Array;
+package main.java.leetcode.Array;
 
 public class MaxProfit {
     public static int maxProfit(int[] prices) {

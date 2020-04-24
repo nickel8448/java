@@ -1,4 +1,4 @@
-package main.java.LeetCode.BitManipulation;
+package main.java.leetcode.BitManipulation;
 
 public class HammingDistance {
 
