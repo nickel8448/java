@@ -4,7 +4,6 @@ package main.java.leetcode.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Set;
 
 public class IntersectionOfTwoArrays {
     public static int[] intersect(int[] num1, int[] num2) {

@@ -1,4 +1,4 @@
-package main.java.leetcode.trees;
+package main.java.LeetCode.Trees;
 
 import java.util.*;
 
@@ -30,7 +30,7 @@ public class BinaryTree {
         inorderTraversal(root);
     }
 
-    void inorderTraversal(TreeNode node) {
+    private void inorderTraversal(TreeNode node) {
         if(node != null) {
             inorderTraversal(node.left);
             System.out.println(node.val);
