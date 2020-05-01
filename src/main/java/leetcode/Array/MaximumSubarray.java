@@ -1,47 +1,47 @@
 package main.java.leetcode.Array;
 
 public class MaximumSubarray {
-    /**
-     * Problem: https://leetcode.com/problems/maximum-subarray/
-     * 3/4/2020
-     * @param nums
-     * @return
-     */
+
     public static int maxSubArray(int[] nums) {
-        return subarray(nums, 0, nums.length - 1);
+        return maxSubArray(nums, 0, nums.length - 1);
     }
 
-    public static int subarray(int[] nums, int low, int high) {
-        if(low == high) {
-            return nums[low];
+    public static int maxSubArray(int[] nums, int left, int right) {
+        if(left == right) {
+            return nums[left];
         }
-        int mid = (low + high) / 2;
-        int left = subarray(nums, low, mid);
-        int right = subarray(nums, mid + 1, high);
-        int crossSum = sum(nums, low, mid, high);
-        return Math.max(crossSum, Math.max(left, right));
+        int mid = (left + right) / 2;
+        int leftSum = maxSubArray(nums, left, mid);
+        int rightSum = maxSubArray(nums, mid + 1, right);
+        int crossSum = crossSum(nums, left, mid, right);
+        int maxLeftAndRight = Math.max(leftSum, rightSum);
+        return Math.max(maxLeftAndRight, crossSum);
     }
 
-    public static int sum(int[] nums, int low, int mid, int high) {
+    public static int crossSum(int[] nums, int left, int mid, int right) {
         int leftSum = Integer.MIN_VALUE;
-        int tempLeft = 0;
-        for(int i = mid; i >= 0; i--) {
-            tempLeft += nums[i];
-            if(tempLeft > leftSum) leftSum = tempLeft;
+        int sum = 0;
+        for(int i = mid; i >= left; i--) {
+            sum += nums[i];
+            if(sum > leftSum) {
+                leftSum = sum;
+            }
         }
 
         int rightSum = Integer.MIN_VALUE;
-        int tempRight = 0;
-        for(int i = mid + 1; i <= high; i++) {
-            tempRight += nums[i];
-            if(tempRight > rightSum) rightSum = tempRight; 
+        sum = 0;
+        for (int i = mid + 1; i <= right; i++) {
+            sum += nums[i];
+            if(sum > rightSum) {
+                rightSum = sum;
+            }
         }
-
-        return Math.max(leftSum, rightSum);
+        return leftSum + rightSum;
     }
 
     public static void main(String[] args) {
-        int[] input = {-2,1,-3,4,-1,2,1,-5,4};
-        System.out.println(maxSubArray(input));
+        int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
+        System.out.println(maxSubArray(arr));
     }
+
 }

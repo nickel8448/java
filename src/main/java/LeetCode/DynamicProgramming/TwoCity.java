@@ -1,17 +1,24 @@
-package main.java.leetcode.DP;
+package main.java.leetcode.DynamicProgramming;
+
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class TwoCity {
     public int twoCitySchedCost(int[][] costs) {
+        Arrays.sort(costs, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                return o1[0] - o1[1] - (o2[0] - o2[1]);
+            }
+        });
         int aPending = costs.length / 2;
         int bPending = costs.length / 2;
         int minCost = 0;
         for(int i = 0; i < costs.length; i++) {
-            if(costs[i][0] < costs[i][1] && aPending >= 0) {
+            if(i < costs.length / 2) {
                 minCost += costs[i][0];
-                aPending--;
-            } else if(costs[i][1] < costs[i][0] && bPending >= 0) {
+            } else {
                 minCost += costs[i][1];
-                bPending--;
             }
         }
         return minCost;

@@ -11,20 +11,18 @@ package main.java.leetcode.Array;
 // It doesn't matter what you leave beyond the returned length.
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 public class RemoveDuplicatesFromSorted {
     public static int removeDuplicates(int[] nums) {
-        HashSet<Integer> elements = new HashSet<>();
-        int newLength = 0;
-        int counter = 0;
-        for(int i = 0; i < nums.length; i++) {
-            if(!elements.contains(nums[i])) {
-                elements.add(nums[i]);
-                nums[counter++] = nums[i];
+        if (nums.length == 0) return 0;
+        int i = 0;
+        for (int j = 1; j < nums.length; j++) {
+            if(nums[i] != nums[j]) {
+                ++i;
+                nums[i] = nums[j];
             }
         }
-        return elements.size();
+        return i + 1;
     }
 
     public static void main(String[] args) {

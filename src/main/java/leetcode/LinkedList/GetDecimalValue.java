@@ -1,9 +1,6 @@
 package main.java.leetcode.LinkedList;
 
 public class GetDecimalValue {
-    public int getDecimalValue(LinkedList list) {
-        return getDecimalValueBit(list.head);
-    }
 
     public int getDecimalValue(ListNode head) {
         int len = lengthOfList(head) - 1;
@@ -32,10 +29,4 @@ public class GetDecimalValue {
         return result;
     }
 
-    public static void main(String[] args) {
-        int[] input = {1, 0, 1};
-        LinkedList list = new LinkedList(input);
-        GetDecimalValue gdv = new GetDecimalValue();
-        System.out.println(gdv.getDecimalValue(list));
-    }
 }
