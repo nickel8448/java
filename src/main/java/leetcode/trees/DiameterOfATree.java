@@ -1,4 +1,3 @@
 package main.java.leetcode.trees;
 
-public class DiameterOfATree {
-}
+public class DiameterOfATree {}

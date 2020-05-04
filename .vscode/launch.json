@@ -1,0 +1,1043 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConstructBinaryFromPreoder",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.ConstructBinaryFromPreoder",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PruneTree",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.PruneTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TooLongWords<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.CodeForces.BetaRoundSixFive.TooLongWords",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SystemAdministrator<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.CodeForces.CROC.SystemAdministrator",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DivisibilityProblem<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.CodeForces.ContestSixTwoNine.DivisibilityProblem",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BachgoldProblem<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.CodeForces.ContestThreeEightEight.BachgoldProblem",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Elephant<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.CodeForces.ContestThreeFourZero.Elephant",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Udayland<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.CodeForces.ContestThreeSixNine.Udayland",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibBottomUp<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.dynamic_programming.FibBottomUp",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FibTopDown<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.dynamic_programming.FibTopDown",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConnectedComponents<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.graph.ConnectedComponents",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DirectedGraphWithWeights<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.graph.DirectedGraphWithWeights",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GraphPlayground<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.graph.GraphPlayground",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ContainsDuplicateOne<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.ContainsDuplicateOne",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DIStringMatch<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.DIStringMatch",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DuplicateZeros<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.DuplicateZeros",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EmployeeImportance<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.EmployeeImportance.EmployeeImportance",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMinimumFiboNumbers<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.FindMinimumFiboNumbers",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FlippingAnImage<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.FlippingAnImage",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HappyNumber<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.HappyNumber",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IntersectionOfTwoArrays<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.IntersectionOfTwoArrays",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IntersectionOfTwoArraysAttempII<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.IntersectionOfTwoArraysAttempII",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IsAlienSorted<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.IsAlienSorted",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IslandPerimeter<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.IslandPerimeter",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LargestUniqueNumber<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.LargestUniqueNumber",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LastStoneWeight<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.LastStoneWeight",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MajorityElement<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MajorityElement",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaxNumberOfApples<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MaxNumberOfApples",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumSubarray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MaximumSubarray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinimumAbsoluteDifference<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MinimumAbsoluteDifference",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MissingNumber<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MissingNumber",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MonotonicArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MonotonicArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MostConsecutiveOnes<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MostConsecutiveOnes",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MoveZeros<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MoveZeros",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumCandies<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.NumCandies",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OrangesRotting<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.OrangesRotting",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PeakInAMountain<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.PeakInAMountain",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PlusOne<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.PlusOne",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RecurringDuplications<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RecurringDuplications",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RelativeRanks<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RelativeRanks",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RelativeSortArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RelativeSortArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicatesFromSorted<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RemoveDuplicatesFromSorted",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveElement<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RemoveElement",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RotateArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateImageArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.RotateImageArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Search2DMatrix<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.Search2DMatrix",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortestDistanceInStringArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.ShortestDistanceInStringArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumber<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.SingleNumber",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SmallerNumbersThanCurrent<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.SmallerNumbersThanCurrent",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortArrayByParity<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.SortArrayByParity",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortArrayByParityII<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.SortArrayByParityII",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortedSquare<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.SortedSquare",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StepByStep<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.StepByStep",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreePartsEqualSum<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.ThreePartsEqualSum",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeSum<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.ThreeSum",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TransposeMatrix<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.TransposeMatrix",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.TwoSum",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSumLessThanK<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.TwoSumLessThanK",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidSudoku<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.ValidSudoku",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CombinationSum<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.CombinationSum",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LetterCombinations<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.LetterCombinations",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NQueens<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.NQueens",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromeParition<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.PalindromeParition",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PermutationArrayII<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.PermutationArrayII",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permute<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.Permute",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PowerSet<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.PowerSet",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Subsets<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Backtracking.Subsets",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindMinimumInRotatedArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BinarySearch.FindMinimumInRotatedArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchRange<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BinarySearch.SearchRange",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSum<java_943dc3a9>(1)",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BinarySearch.TwoSum",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ComplementOfBaseTen<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BitManipulation.ComplementOfBaseTen",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountSetBits<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BitManipulation.CountSetBits",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HammingWeight<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BitManipulation.HammingWeight",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HasAlternatingBits<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BitManipulation.HasAlternatingBits",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumberComplement<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BitManipulation.NumberComplement",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortByBits<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.BitManipulation.SortByBits",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumSubarray<java_943dc3a9>(1)",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DivideAndConq.MaximumSubarray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSort<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DivideAndConq.MergeSort",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ClimbingStairs<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DynamicProgramming.ClimbingStairs",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MinMostClimbingStairs<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DynamicProgramming.MinMostClimbingStairs",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NthTribonacci<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DynamicProgramming.NthTribonacci",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PaintHouses<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DynamicProgramming.PaintHouses",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoCity<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.DynamicProgramming.TwoCity",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MyHashMap<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.HashMap.MyHashMap",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeleteDuplicates<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.LinkedList.DeleteDuplicates",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LinkedListTest<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.LinkedList.LinkedListTest",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FloodFill<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Matrix.FloodFill",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountBits<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Nums.CountBits",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromeNumber<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Nums.PalindromeNumber",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PowerOfTwo<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Nums.PowerOfTwo",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MeetingRooms<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.PriorityQueue.MeetingRooms",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CanPermutePalindrome<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.CanPermutePalindrome",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Codec<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.Codec",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountCharacters<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.CountCharacters",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DetectCapital<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.DetectCapital",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExcelSheetNumbers<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ExcelSheetNumbers",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindCommonCharacters<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.FindCommonCharacters",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstUniqueCharacter<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.FirstUniqueCharacter",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IndexPairs<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.IndexPairs",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JewelsAndStones<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.JewelsAndStones",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LetterCasePermutation<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.LetterCasePermutation",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestCommonPrefix<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.LongestCommonPrefix",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LongestPalindrome<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.LongestPalindrome",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NumUniqueEmails<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.NumUniqueEmails",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RansomNote<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.RansomNote",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveAdjacentDuplicates<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.RemoveAdjacentDuplicates",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseInteger<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ReverseInteger",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseOnlyLetters<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ReverseOnlyLetters",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseString<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ReverseString",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ShortedDistanceToCharacter<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ShortedDistanceToCharacter",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleRowKeyboard<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.SingleRowKeyboard",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StrStr<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.StrStr",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-UncommonFromSentences<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.UncommonFromSentences",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidAnagram<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ValidAnagram",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidAnagramHashMap<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ValidAnagramHashMap",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidPalindrome<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.ValidPalindrome",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AllPaths<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.graphs.AllPaths",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumDepth<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.narray.MaximumDepth",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PostorderTraversal<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.narray.PostorderTraversal",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PreorderTraversal<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.narray.PreorderTraversal",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AverageOfLevels<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.AverageOfLevels",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinaryTreePaths<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.BinaryTreePaths",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ConstructMaximumBinaryTree<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.ConstructMaximumBinaryTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DeepestLeavesSum<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.DeepestLeavesSum",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindLeaves<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.FindLeaves",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GetTargetCopy<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.GetTargetCopy",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-GreaterTree<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.GreaterTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LeafSimilar<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.LeafSimilar",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LevelOrderBottomSol<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.LevelOrderBottomSol",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MaximumBinaryTree<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.MaximumBinaryTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeTwoBinaryTrees<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.MergeTwoBinaryTrees",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RangeSumBST<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.RangeSumBST",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortedArrayToBST<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.SortedArrayToBST",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SubTreeOfAnotherTree<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.SubTreeOfAnotherTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumRootToLeaf<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.SumRootToLeaf",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SymmetricTree<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.SymmetricTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TreeNodePlayground<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.TreeNodePlayground",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TwoSumIV<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.TwoSumIV",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidateBinaryTree<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.trees.ValidateBinaryTree",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BinarySearch<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.sorting.BinarySearch",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindPeakElement<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.sorting.FindPeakElement",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FirstBadVersion<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.sorting.FirstBadVersion",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeSortedArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.sorting.MergeSortedArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchInRotatedArray<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.sorting.SearchInRotatedArray",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AnonymousClasses<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.trials.AnonymousClasses",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ImplementIterator<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.trials.ImplementIterator",
+            "projectName": "java_943dc3a9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Unintializedvariables<java_943dc3a9>",
+            "request": "launch",
+            "mainClass": "main.java.trials.Unintializedvariables",
+            "projectName": "java_943dc3a9"
+        }
+    ]
+}

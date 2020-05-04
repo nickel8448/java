@@ -1,4 +1,3 @@
 package main.java.leetcode.trees;
 
-public class InsertIntoBST {
-}
+public class InsertIntoBST {}
