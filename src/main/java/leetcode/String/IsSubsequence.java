@@ -11,4 +11,15 @@ public class IsSubsequence {
     }
     return i == s.length();
   }
+
+  public boolean isSubsequenceUsingIndexOf(String s, String t) {
+    int current = 0;
+    for(int i = 0; i < s.length(); i++) {
+        int index = t.indexOf(s.charAt(i), current);
+        if(index == -1)
+            return false;
+        current = index;
+    }
+    return true;
+  }
 }
