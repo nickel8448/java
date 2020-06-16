@@ -9,7 +9,11 @@ public class ListNode {
     this.val = x;
   }
 
-  int getVal() {
+    public ListNode() {
+
+    }
+
+    int getVal() {
     return val;
   }
 
