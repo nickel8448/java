@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EucleadiansAlgorithm",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Nums.EucleadiansAlgorithm",
+            "projectName": "java_9e36964a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RotateString",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.String.RotateString",
+            "projectName": "java_9e36964a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConstructBinaryFromPreoder",
             "request": "launch",
             "mainClass": "main.java.leetcode.trees.ConstructBinaryFromPreoder",

@@ -4,3 +4,8 @@
 .editorconfig
 .idea
 .idea/
+*.swp
+*.swo
+*.class
+*.gitignore
+*.vscode/*
