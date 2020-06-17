@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SplitArrayIntoConsecutiveSubsequences",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.SplitArrayIntoConsecutiveSubsequences",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumSizeSubarrayEqualK",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MaximumSizeSubarrayEqualK",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxProductSubarray",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MaxProductSubarray",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DegreeOfAnArray",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.DegreeOfAnArray",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaximumSubarray",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.MaximumSubarray",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FruitIntoBaskets",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.FruitIntoBaskets",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DIStringMatch",
+            "request": "launch",
+            "mainClass": "main.java.leetcode.Array.DIStringMatch",
+            "projectName": "java_5e161028"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ConstructBinaryFromPreoder",
             "request": "launch",
             "mainClass": "main.java.leetcode.trees.ConstructBinaryFromPreoder",
