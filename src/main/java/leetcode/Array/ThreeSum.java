@@ -25,9 +25,38 @@ public class ThreeSum {
     return outputList;
   }
 
+  public static List<List<Integer>> threeSumOptimized(int[] nums) {
+    int[] sortedArray = nums.clone();
+    Arrays.sort(sortedArray);
+    List<List<Integer>> result = new ArrayList<>();
+    for (int i = 0; i < sortedArray.length; i++) {
+      if (i == 0 || sortedArray[i] != sortedArray[i - 1]) {
+        twoSum(sortedArray, i, result);
+      }
+    }
+    return result;
+  }
+
+  private static void twoSum(int[] nums, int i, List<List<Integer>> result) {
+    int left = i + 1, right = nums.length - 1;
+    while (left < right) {
+      int sum = nums[left] + nums[right] + nums[i];
+      if (sum < 0 || (left > i + 1 && nums[left] == nums[left - 1])) {
+        left++;
+      } else if (sum > 0 || (right < nums.length - 1 && nums[right] == nums[right + 1])) {
+        right--;
+      } else {
+        List<Integer> temp = Arrays.asList(nums[i], nums[left], nums[right]);
+        result.add(temp);
+        left++;
+        right--;
+      }
+    }
+  }
+
   public static void main(String[] args) {
     int[] nums = {-1, 0, 1, 2, -1, -4};
-    List<List<Integer>> list = threeSum(nums);
+    List<List<Integer>> list = threeSumOptimized(nums);
     for (int i = 0; i < list.size(); i++) {
       System.out.println(Arrays.toString(list.get(i).toArray()));
     }
