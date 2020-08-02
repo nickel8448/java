@@ -15,9 +15,9 @@ public class ValidSudoku {
     for (int i = 0; i < board.length; ++i) {
       for (int j = 0; j < board[i].length; ++j) {
         if (board[i][j] != '.') {
-          String rowText = new String("Row: " + i + ": " + board[i][j]);
-          String colText = new String("Col: " + j + ": " + board[i][j]);
-          String boxText = new String("Box: " + i / 3 + "-" + j / 3 + ": " + board[i][j]);
+          String rowText = "Row: " + i + ": " + board[i][j];
+          String colText = "Col: " + j + ": " + board[i][j];
+          String boxText = "Box: " + i / 3 + "-" + j / 3 + ": " + board[i][j];
           if (!seen.add(rowText) || !seen.add(colText) || !seen.add(boxText)) {
             return false;
           }
