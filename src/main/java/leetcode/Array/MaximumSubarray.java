@@ -39,8 +39,29 @@ public class MaximumSubarray {
     return leftSum + rightSum;
   }
 
+  /**
+   * Solution using dynamic programming
+   *
+   * @param nums
+   * @return
+   */
+  public static int maxSubArrayDP(int[] nums) {
+    if (nums.length == 0) return Integer.MIN_VALUE;
+    int[] dp = new int[nums.length + 1];
+    dp[0] = 0;
+    dp[1] = nums[0];
+    int max = dp[1];
+    for (int i = 1; i < nums.length; i++) {
+      int currentSum = dp[i] + nums[i];
+      int currentNum = nums[i];
+      dp[i + 1] = Math.max(currentNum, currentSum);
+      max = Math.max(max, dp[i + 1]);
+    }
+    return max;
+  }
+
   public static void main(String[] args) {
     int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    System.out.println(maxSubArray(arr));
+    System.out.println(maxSubArrayDP(arr));
   }
 }

@@ -1,50 +1,30 @@
 package main.java.leetcode.graphs;
 
-import java.util.LinkedList;
-
+/** https://leetcode.com/problems/maximal-square/ Status: Pending */
 public class MaximalSquare {
-
-  private class node {
-    int x;
-    int y;
-
-    node(int x, int y) {
-      this.x = x;
-      this.y = y;
-    }
-  }
 
   private int max = 0;
 
   public int maximalSquare(char[][] matrix) {
-    LinkedList<node> queue = new LinkedList<>();
+    boolean[][] visited = new boolean[matrix.length][matrix[0].length];
     for (int i = 0; i < matrix.length; i++) {
       for (int j = 0; j < matrix[i].length; j++) {
-        if (matrix[i][j] == '1') {
-          int currentSize = 0;
-          boolean[][] visited = new boolean[matrix.length][matrix[i].length];
-          queue.add(new node(i, j));
-          while (queue.size() != 0) {
-            node currentNode = queue.poll();
-            visited[currentNode.x][currentNode.y] = true;
-            if (currentNode.x + 1 < matrix.length && currentNode.y + 1 < matrix[i].length) {
-              char rightChar = matrix[currentNode.x][currentNode.y + 1];
-              char cornerChar = matrix[currentNode.x + 1][currentNode.y + 1];
-              char bottomChar = matrix[currentNode.x + 1][currentNode.y];
-              if (rightChar == '1' && cornerChar == '1' && bottomChar == '1') {
-                if (visited[currentNode.x][currentNode.y + 1] == false)
-                  queue.add(new node(currentNode.x, currentNode.y + 1));
-                if (visited[currentNode.x + 1][currentNode.y + 1] == false)
-                  queue.add(new node(currentNode.x + 1, currentNode.y + 1));
-                if (visited[currentNode.x + 1][currentNode.y] == false)
-                  queue.add(new node(currentNode.x + 1, currentNode.y));
-                currentSize++;
-              }
-            }
-          }
-        }
+        boolean[][] stackVisited = visited;
+        bfs(matrix, i, j, stackVisited, 0);
       }
     }
     return max * max;
+  }
+
+  private void bfs(char[][] matrix, int i, int j, boolean[][] stackVisited, int current) {
+    if (current > max) {
+      max = current;
+    }
+    if (j + 1 < matrix[i].length && i + 1 < matrix.length) {
+      char right = matrix[i][j + 1];
+      char corner = matrix[i + 1][j + 1];
+      char bottom = matrix[i + 1][j];
+      if (right == '1' && corner == '1' && bottom == '1') {}
+    }
   }
 }
