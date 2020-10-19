@@ -36,7 +36,7 @@ public class MinimumWindowSubsequence {
           }
         }
         if (rightPointer - leftPointer < stringLength) {
-          result = s.substring(leftPointer, rightPointer);
+          result = S.substring(leftPointer, rightPointer);
           stringLength = result.length();
         }
         leftPointer++;

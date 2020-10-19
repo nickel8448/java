@@ -1,5 +1,6 @@
 package main.java.interview_prep;
 
+import java.util.*;
 
 /**
  * Problem: https://leetcode.com/problems/longest-substring-without-repeating-characters/
@@ -15,6 +16,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
     int leftPointer = 0;
     int rightPointer = 0;
     int longestLength = 0;
+    Set<Character> charSet = new HashSet<>();
     while (leftPointer < s.length() && rightPointer < s.length()) {
       if (!charSet.contains(s.charAt(rightPointer))) {
         charSet.add(s.charAt(rightPointer));
