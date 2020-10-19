@@ -23,7 +23,7 @@ public class MinimumWindowSubsequence {
     while (rightPointer < S.length()) {
       char rightChar = S.charAt(rightPointer);
       if (frequencyMap.containsKey(rightChar)) {
-        frequencyMap.put(rightChar, frequencyMap.get(rightPointer) - 1);
+        frequencyMap.put(rightChar, frequencyMap.get(rightChar) - 1);
         if (frequencyMap.get(rightChar) == 0) counter--;
       }
       rightPointer++;
@@ -36,7 +36,7 @@ public class MinimumWindowSubsequence {
           }
         }
         if (rightPointer - leftPointer < stringLength) {
-          result = s.substring(leftPointer, rightPointer);
+          result = S.substring(leftPointer, rightPointer);
           stringLength = result.length();
         }
         leftPointer++;

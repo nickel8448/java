@@ -16,7 +16,7 @@ import java.util.*;
  *
  * <p>Approach:
  *
- * <p>Runtime:
+ * <p>Runtime: O(N ^ 2)
  */
 public class MyCalendarTwo {
   List<int[]> calendar;
