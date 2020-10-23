@@ -9,8 +9,7 @@ public class RepeatedStringMatch {
       newString.append(A);
       result++;
     }
-    if (newString.indexOf(B) != -1)
-      return result;
+    if (newString.indexOf(B) != -1) return result;
     if (newString.append(A).indexOf(B) != -1) return result + 1;
     return -1;
   }
